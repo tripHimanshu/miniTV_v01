@@ -35,15 +35,15 @@ String timeStamp;
 WiFiClient client;
 // credential for wifi connection 
 // replace the ssid and password according to your connection
-const char* ssid = "hPhone";
-const char* password = "testingesp32";
+const char* ssid = "your ssid";
+const char* password = "your password";
 // API key from openweathermap.org
 // replace the API key with yours API key
-String APIKEY = "9b06aa806cad4e9796951b209209a5be";
+String APIKEY = "your api key";
 // City ID, latitude and longitude (for Ghaziabad, India); replace this for your city
-String CityID = "1271308";
-String latitude = "28.6667";
-String longitude = "77.4333";
+String CityID = "your city ID";
+String latitude = "latitude of your city";
+String longitude = "longitude of your city";
 //global variable for http connection 
 bool id = false;
 char servername[] = "api.openweathermap.org";
